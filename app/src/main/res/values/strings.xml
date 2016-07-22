@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">New Union</string>
+    <string name="main">Main</string>
+    <string name="about">About</string>
+    <string name="empty"></string>
+    <string name="USERS">USERS</string>
+    <string name="SETTING">SETTING</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_account">Create account</string>
+
+    <string name="please_wait">Please wait</string>
+    <string name="loading">Loading...</string>
+
+    <string name="welcome_to_about_page">Welcome to About page.</string>
+    <string name="welcome_to_setting_page">Welcome to Setting page.</string>
+
+    <string name="error_email_empty">Email cannot be blank! Please enter your email.</string>
+    <string name="error_email_not_yet_registered">The email is not registered.</string>
+    <string name="error_password_empty">Password cannot be blank! Please enter your password.</string>
+    <string name="error_name_empty">Name cannot be blank! Please enter your name.</string>
+    <string name="error_no_network_connection">No network connection. Please check your network.</string>
+    <string name="error_login_failed">Login failed.</string>
+    <string name="error_cannot_create_account">Cannot create account.</string>
+    <string name="error_email_account_is_already_in_use">The specified email address is already in use</string>
+    <string name="error_fetching_data_from_server">Error while fetching data from server</string>
+    <string name="error_too_many_api_call">Too many API calls. Please close app and try again later.</string>
+
+    <string name="message_account_created">Account has been created</string>
+    <string name="message_data_empty">Don\'t have any data.</string>
+    <string name="message_new_user_created">User %s has just created</string>
+</resources>

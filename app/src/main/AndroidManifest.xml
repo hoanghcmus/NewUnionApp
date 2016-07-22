@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.newunion.newunionapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".NewUnionApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name=".ui.LoginActivity"
+            android:excludeFromRecents="true"
+            android:windowSoftInputMode="adjustResize|stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:excludeFromRecents="true"
+            android:windowSoftInputMode="adjustResize|stateVisible"></activity>
+
+        <activity android:name=".ui.MainActivity"></activity>
+
+        <activity
+            android:name=".ui.AboutActivity"
+            android:label="About"></activity>
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- theme colors-->
+    <color name="colorPrimary">#4DB6AC</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#fbf520</color>
+
+    <!-- login button colors -->
+    <color name="login_button_color">#4DB6AC</color>
+    <color name="login_button_text_color">#ffffff</color>
+    <color name="login_button_pressed_color">#009688</color>
+
+    <!-- sign up button colors-->
+    <color name="signup_button_color">#fbf520</color>
+    <color name="signup_button_pressed_color">#dedb83</color>
+    <color name="signup_button_text_color">#6a807e</color>
+
+    <color name="grey">#3c151212</color>
+    <color name="grey_light">#f3eee8</color>
+    <color name="grey_light_new">#919fa7</color>
+
+</resources>

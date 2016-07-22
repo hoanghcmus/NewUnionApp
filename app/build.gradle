@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0 rc3"
+
+    defaultConfig {
+        applicationId "com.newunion.newunionapp"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/ASL-2.0.txt'
+        exclude 'META-INF/LGPL-3.0.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/MANIFEST.MF'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    // android support libraries
+
+    // open source libraries
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
+    compile 'io.reactivex:rxandroid:1.0.0'
+    compile 'com.google.dagger:dagger:2.0.2'
+    compile 'com.jakewharton:butterknife:8.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.afollestad.material-dialogs:commons:0.8.6.1'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    compile project(':eventsource_android')
+    compile files('libs/jackson-annotations-2.4.2.jar')
+    compile files('libs/json-patch-1.9.jar')
+    compile files('libs/jackson-core-2.4.2.jar')
+    compile files('libs/jackson-databind-2.4.2.jar')
+    compile files('libs/msg-simple-1.1.jar')
+}
+
+
