@@ -1,6 +1,10 @@
 # NewUnionApp
-<<<<<<< HEAD
-Test
-=======
-Fetch data from Real time API
->>>>>>> d6de8f93a12a573e0882fee76bb986e787edb5b2
+
+========================================================================
+New Union Test
+========================================================================
+
+Hightlight: Fetch data from Real time API
+
+Link to download and install app: https://webapp.diawi.com/install/Wpf4Zf
+
